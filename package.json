@@ -1,18 +1,22 @@
 {
-  "name": "ehtech1",
+"name": "ehtech1",
   "version": "1.0.0",
+  "description": "Full-stack user management app (Node/Express/MySQL + HTML/JS/CSS)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Emanuel Gomes e Hugo Renato",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "mysql2": "^3.20.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
-}

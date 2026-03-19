@@ -1,1 +1,21 @@
 node_modules/
+.env
+dist/
+*.log
+.DS_Store
+
+>>>>>>> ad4ac60718884708a546e5c9e1c4a67a9fa8acf7
+=======
+node_modules/
+.env
+dist/
+*.log
+.DS_Store
+=======
+node_modules/
+.env
+dist/
+*.log
+.DS_Store
+
+>>>>>>> ad4ac60718884708a546e5c9e1c4a67a9fa8acf7
