@@ -1,0 +1,20 @@
+{
+  "name": "ehtech1",
+  "version": "1.0.0",
+  "description": "Full-stack user management app (Node/Express/MySQL + HTML/JS/CSS)",
+  "main": "src/backend/index.js",
+  "scripts": {
+    "dev": "cd src/backend && nodemon index.js",
+    "start": "cd src/backend && node index.js",
+    "install:all": "cd src/backend && npm install"
+  },
+  "workspaces": [
+    "src/backend",
+    "public"
+  ],
+  "author": "Emanuel Gomes e Hugo Renato",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
